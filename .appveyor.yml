@@ -1,0 +1,19 @@
+version: '{build}'
+image: Visual Studio 2017
+
+environment:
+  LOG_TRACE: 1
+  PATH: node_modules/.bin;%PATH%
+  GRADLE_OPTS: -Dorg.gradle.daemon=false
+
+install:
+  - npm install
+  - npm install android-build-tools -g
+
+build_script:
+  - uno build android
+
+artifacts:
+  - path: build\Android\Debug\fuse-ci.apk
+
+test: off

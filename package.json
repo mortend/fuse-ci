@@ -1,0 +1,24 @@
+{
+  "name": "fuse-ci",
+  "version": "1.0.0",
+  "description": "An example Fuse project with CI",
+  "scripts": {
+    "android": "uno build android --run",
+    "ios": "uno build ios --run",
+    "dotnet": "uno build dotnet --run",
+    "native": "uno build native --run"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/mortend/fuse-ci.git"
+  },
+  "author": "Morten Daniel Fornes",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/mortend/fuse-ci/issues"
+  },
+  "homepage": "https://github.com/mortend/fuse-ci#readme",
+  "devDependencies": {
+    "fuse-sdk": "^1.12.0-rc.1"
+  }
+}
