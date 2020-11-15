@@ -19,6 +19,6 @@
   },
   "homepage": "https://github.com/mortend/fuse-ci#readme",
   "devDependencies": {
-    "fuse-sdk": "^1.12.0-rc.1"
+    "fuse-sdk": "^1.14.0"
   }
 }
